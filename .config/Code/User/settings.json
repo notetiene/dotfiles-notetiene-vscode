@@ -1,3 +1,45 @@
 {
-  "workbench.colorTheme": "Default Dark Modern"
+  "workbench.colorTheme": "Default Dark Modern",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-turbo-preview",
+  "gitlens.codeLens.enabled": false,
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.codeFormatting.preset": "OTBS",
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+  "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.newLineAfterCloseBrace": false,
+  "powershell.codeFormatting.pipelineIndentationStyle": "IncreaseIndentationForFirstPipeline",
+  "cSpell.caseSensitive": true,
+  "editor.unicodeHighlight.includeComments": true,
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "editor.minimap.enabled": false,
+  "editor.formatOnType": true,
+  "diffEditor.codeLens": true,
+  "diffEditor.experimental.showMoves": true,
+  "makefile.configureOnOpen": true,
+  "workbench.startupEditor": "none",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "python.defaultInterpreterPath": "/home/etienne/Documents/autonome/proulx/dev/spacy-test/.env",
+  "python.analysis.typeCheckingMode": "strict",
+  "docker.extension.enableComposeLanguageServer": false,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
